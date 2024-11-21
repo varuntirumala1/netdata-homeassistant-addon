@@ -14,7 +14,7 @@ Sign in to Netdata Cloud
 
 1. Go to the Spaces management area
 2. Click on Connect Nodes
-3. You'll get a command like: "wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --claim-token xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --claim-rooms xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --claim-url https://app.netdata.cloud"
+3. You'll get a command like: "wget -O /tmp/netdata-kickstart.sh https://get.netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --stable-channel --claim-token xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --claim-rooms xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --claim-url https://app.netdata.cloud"
 4. Find the token and rooms strings and specify your nodes:
 
 - **claim_url**: Specify the url to cloud server. The default value should always work
