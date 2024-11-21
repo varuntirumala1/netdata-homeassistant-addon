@@ -43,59 +43,7 @@ The Netdata Addon is not available in the Home Assistant default Addon. To insta
 
 ![netdata installation][netdata installation]
 
-## Support
 
-Got questions?
-
-No discord or forum is created for now, so contact me by mail
-[:mailbox_with_mail: Contact us][contact]
-
-You could also [open an issue here][issue] GitHub.
-
-## Compatible and tested platforms
-
-This addon is tested on the following platforms:
-
-- Raspberry Pi 4
-- MacBook Pro 13' 2011
-- Asus Zenbook 14'
-
-If you tested it on your own system and it works for you, please contact me by mail so I can add it to the tested list.
-[:mailbox_with_mail: Contact us][contact]
-
-## Authors & contributors
-
-The original setup of this repository is by [Valentin Rudloff][valentin].
-
-For a full list of all authors and contributors,
-check [the contributor's page][contributors].
-
-## License
-
-Copyright (c) 2021-2022 Valentin Rudloff
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[valentin]: https://github.com/Gamma-Software
-[contributors]: https://github.com/Gamma-Software/netdata-homeassistant-addon/graphs/contributors
-[issue]: https://github.com/Gamma-Software/netdata-homeassistant-addon/issues
-[contact]: valentin.rudloff.perso@gmail.com
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
