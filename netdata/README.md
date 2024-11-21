@@ -36,10 +36,11 @@ The Netdata Addon is not available in the Home Assistant default Addon. To insta
 3. Click on the _add-on store_ lower-right button
 4. Click on the 3 dots icon on the top-right corner
 5. Click on _Repositories_
-6. Add this repository: https://github.com/Gamma-Software/netdata-homeassistant-addon
+6. Add this repository: https://github.com/varuntirumala1/netdata-homeassistant-addon
 7. Search for the "Netdata" add-on
-8. Start the "Netdata" add-on
-9. Check the logs of the "Netdata" add-on to see if everything went well
+8. Install the "Netdata" add-on
+9. Configure addon and start
+10. Check the logs of the "Netdata" add-on to see if everything went well
 
 ![netdata installation][netdata installation]
 
