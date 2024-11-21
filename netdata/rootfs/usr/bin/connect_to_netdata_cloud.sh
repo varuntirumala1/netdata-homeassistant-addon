@@ -8,5 +8,5 @@ NETDATA_CLOUD_URL=$(bashio::config 'claim_url')
 NETDATA_CLOUD_TOKEN=$(bashio::config 'claim_token')
 NETDATA_CLOUD_ROOMS=$(bashio::config 'claim_rooms')
 
-curl -s https://get.netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh
+curl -s https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh
 sh /tmp/netdata-kickstart.sh --claim-hostname ${NETDATA_HOSTNAME} --stable-channel --claim-token ${NETDATA_CLOUD_TOKEN} --claim-rooms ${NETDATA_CLOUD_ROOMS} --claim-url ${NETDATA_CLOUD_URL}
