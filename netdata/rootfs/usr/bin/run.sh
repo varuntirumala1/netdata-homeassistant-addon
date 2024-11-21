@@ -6,4 +6,4 @@ bashio::log.info "Claiming agent to Netdata cloud... (may take a few seconds to 
 /usr/bin/connect_to_netdata_cloud.sh &
 
 bashio::log.info "Starting Netdata..."
-exec /opt/netdata/bin/netdata -p 19999 -D -c /etc/netdata/netdata.conf
+exec /opt/netdata/bin/netdata -D -c /etc/netdata/netdata.conf
