@@ -1,5 +1,6 @@
 #!/usr/bin/env bashio
 
+#test build
 sleep 10 # Wait for 10 second for Netdata to start
 
 NETDATA_HOSTNAME=$(bashio::config 'hostname')
