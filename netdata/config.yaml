@@ -13,8 +13,8 @@ arch:
 init: false
 panel_icon: mdi:chart-bell-curve
 panel_title: Netdata
-ingress: true
-ingress_port: 19999
+ports:
+  19999/tcp: 19999
 journald: true
 privileged:
   - SYS_PTRACE
