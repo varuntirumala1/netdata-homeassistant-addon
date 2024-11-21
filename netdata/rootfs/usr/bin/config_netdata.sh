@@ -1,5 +1,6 @@
 #!/usr/bin/env bashio
 
+#test push
 # Retrieve the default Netdata configuration
 /opt/netdata/bin/netdata -d -p 19999 & sleep 2
 mkdir -p /etc/netdata
