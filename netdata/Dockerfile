@@ -10,7 +10,7 @@ RUN apk update &&\
 
 # Execute during the build of the image
 RUN curl https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh && \
-    sh /tmp/netdata-kickstart.sh --no-updates --stable-channel \
+    sh /tmp/netdata-kickstart.sh --stable-channel \
     --disable-telemetry --dont-start-it --non-interactive
 
 # Copy data for add-on
