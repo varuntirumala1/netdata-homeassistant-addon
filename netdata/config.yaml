@@ -20,9 +20,9 @@ ports:
 ports_description:
   19999/tcp: Web interfacs
 map:
-  - type: opt
+  - type: data
     read_only: False
-    path: /config/netdata
+    path: /opt
 hassio_api: true
 auth_api: true
 docker_api: true
