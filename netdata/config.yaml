@@ -19,13 +19,6 @@ ports:
   19999/tcp: null
 ports_description:
   19999/tcp: Web interfacs
-map:
-  - addons
-  - backup
-  - config:rw
-  - share
-  - ssl
-  - media
 hassio_api: true
 auth_api: true
 docker_api: true
